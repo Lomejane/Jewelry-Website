@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=League+Gothic&family=League+Spartan:wght@100;200&family=Poppins:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* main{
+    border: 1px solid red;
+} */
+section.Vd-cover{
+    min-height: 50%;
+}
+
+
+video{
+    width: 100%;
+    height: auto;
+}
+.video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    /* width: 10%; */
+    height: 50vh;
+    object-fit: cover;
+}
+p{
+    color: rgb(11, 10, 10);
+    font-family: 'Dosis', sans-serif;   
+}
+/* .text-muted{
+    text-align: right;
+} */
+/* p.text-left{
+    text-align: left;
+} */
+span.price{
+    text-align: right;
+    color:#e33232;
+}
+
+a.btn.btn-light.nav-link{
+    background-color: white;
+    border: 1px solid black;
+}
+a.btn.btn-light.nav-link:hover{
+    /* color: rgba(254, 64, 64, 0.662); */
+    background-color: black;
+    color: white;
+}
+img.card-img.mx-auto:hover{
+    cursor: pointer;
+    background-color: #e33232;
+    /* /* background-color: #b09d9d; */
+}
+img.card-img-top:hover{
+    cursor: pointer;
+    background-color: #e33232;
+    /* /* background-color: #b09d9d; */
+}

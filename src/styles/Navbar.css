@@ -1,0 +1,15 @@
+.form-control{
+    border: 1px solid gray;
+}
+.Profile{
+    height: 500px;
+    border: 1px solid black;
+}
+img.prof  {
+    width: 3.3rem;
+    border: 1px solid black;
+  }
+.file{
+    margin: 5px;
+    padding: 5px;
+}
